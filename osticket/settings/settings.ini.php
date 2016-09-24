@@ -1,9 +1,9 @@
 <?php 
 
 return array(
-    'api_key' => '<api_key>',
-    'host' => 'http://example.com/api/tickets.json',    
-    'issueurl' => 'http://example.com/scp/tickets.php?a=search&query={osticketid}',
+    'api_key' => '<1FF18EF211D8481186C54CF2C4C0133B>',
+    'host' => 'http://www.uthhn.com/soporte/api/tickets.json',    
+    'issueurl' => 'http://www.uthhn.com/soporte/scp/tickets.php?a=search&query={osticketid}',
     'throw_exceptions' => false,        // Set to true while debuging
     'create_duplicate_issues' => false, // If chat was already created on osTicket we won't create an issue again
     'createissuecallbacks' => array (
